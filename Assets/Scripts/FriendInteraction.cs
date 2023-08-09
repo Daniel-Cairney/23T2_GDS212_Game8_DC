@@ -5,6 +5,7 @@ public class FriendInteraction : MonoBehaviour
     public GameObject canvasPrefab; 
     public AudioSource audioSource; 
     public GameObject objectToDestroy;
+    public GameObject objectToDestroy2;
 
     private Canvas interactionCanvas;
     private bool canvasActive = false;
@@ -45,6 +46,7 @@ public class FriendInteraction : MonoBehaviour
             if (objectToDestroy != null)
             {
                 Destroy(objectToDestroy);
+                Destroy(objectToDestroy2);
             }
         }
     }
