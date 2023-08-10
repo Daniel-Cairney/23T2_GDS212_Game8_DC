@@ -27,9 +27,10 @@ public class SceneSwapper: MonoBehaviour
 
     private void InstantiateCanvas()
     {
+        fallingSound.Play();
         if (!canvasInstantiated)
         {
-            fallingSound.Play();
+            
             Instantiate(canvasPrefab, transform.position, Quaternion.identity);
             canvasInstantiated = true;
             Invoke(nameof(LoadScene), 5f);
