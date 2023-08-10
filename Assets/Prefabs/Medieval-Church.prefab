@@ -124,6 +124,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2518135310365606275}
+  - component: {fileID: 8563227582634980641}
+  - component: {fileID: 6699246493036731603}
   m_Layer: 0
   m_Name: Medieval-Church
   m_TagString: Untagged
@@ -147,6 +149,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8563227582634980641
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3006687206330178361}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.65852207, y: 0.5510425, z: 0.19667417}
+  m_Center: {x: 0.012828101, y: 0.22447723, z: 0.037651982}
+--- !u!65 &6699246493036731603
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3006687206330178361}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1115489, y: 0.5033081, z: 0.22462949}
+  m_Center: {x: 0.09901023, y: 0.24834435, z: -0.044374466}
 --- !u!1 &3671620161233117220
 GameObject:
   m_ObjectHideFlags: 0
